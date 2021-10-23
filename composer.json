@@ -1,0 +1,11 @@
+{
+    "name": "svyat/complex",
+    "description": "Class for working with complex numbers",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Numbers\\Complex\\": "src"
+        }
+    }
+}
