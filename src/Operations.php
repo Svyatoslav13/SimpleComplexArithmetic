@@ -42,4 +42,12 @@ class Operations
 
         return new Complex($numenator1/$denominator, $numenator2/$denominator);
     }
+
+    public static function diff(Complex $num1, Complex $num2): Complex
+    {
+        return new Complex(
+            $num1->getRe() - $num2->getRe(),
+            $num1->getIm() - $num2->getIm()
+        );
+    }
 }
