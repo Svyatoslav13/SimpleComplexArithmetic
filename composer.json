@@ -1,6 +1,6 @@
 {
     "name": "svyat/complex",
-    "description": "Class for working with complex numbers",
+    "description": "Class for use simple complex arithmetic",
     "type": "library",
     "require": {},
     "autoload": {
