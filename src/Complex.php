@@ -7,7 +7,7 @@ class Complex
     private $im;
     private $re;
 
-    public function __construct(?int $re, ?int $im)
+    public function __construct(?float $re, ?float $im)
     {
         $this->re = $re ?? 0;
         $this->im = $im ?? 0;
